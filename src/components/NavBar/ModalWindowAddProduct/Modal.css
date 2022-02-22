@@ -1,0 +1,97 @@
+.modal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0);
+    z-index: 10;
+    padding: 20px;
+
+}
+
+.modal .modal__content {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 400px;
+    height: 400px;
+    transform: scale(0.1);
+    transition: 0.5s all;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.modal .modal__content div {
+    margin: 20px;
+    background-color: #ffffff;
+    flex-direction: row;
+    display: flex;
+    border-radius: 10px;
+}
+
+.modal .modal__content a {
+    margin: 20px;
+    background-color: #ffffff;
+    justify-content: flex-start;
+}
+
+.modal .modal__content input {
+    border: 2px solid #bf081d;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.modal button.cancel {
+    margin-right: auto;
+}
+
+.modal .modal__content h1 {
+    text-align: center;
+}
+
+.modal .modal__content .cancel {
+    background-color: #BF081DFF;
+}
+
+.modal .modal__content .add {
+    background-color: #13a203;
+}
+
+.modal.active {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: all;
+}
+
+.modal__content.active {
+    transform: scale(1);
+}
+
+.modal .modal__content .buttonDelete {
+    background-color: #BF081DFF;
+}
+
+.modal .modal__content .buttonCancel {
+    background-color: #13a203;
+
+}
+
+.buttonSubmit {
+    display: flex;
+}
+
+.modal .modal__content textarea {
+    height: 130px;
+    width: 80%;
+    border: 2px solid #bf081d;
+    border-radius: 15px;
+    margin-left: auto;
+    overflow: auto;
+    padding-left: 5px;
+}

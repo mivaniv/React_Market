@@ -1,0 +1,35 @@
+.Product {
+    grid-area: p;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: 10px 10px 10px 12px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 1px 2px 4px  rgb(121, 121, 121);
+
+}
+
+.Product a{
+    color: black;
+    text-decoration: none;
+}
+
+.Product img {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.Product button{
+    margin: 10px;
+}
+
+.Product .remove{
+    background-color: #bf081d;
+}
+
+.Product .details {
+    background-color: #ff6600;
+}

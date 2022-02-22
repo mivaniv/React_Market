@@ -1,0 +1,77 @@
+
+.NavBarMain {
+    width: 250px;
+    border-radius:30px;
+    background: #f95901;
+}
+
+.NavBar ul {
+    z-index: 5;
+}
+
+nav {
+    grid-area: n;
+    background-color: #e62e04;
+    width: 250px;
+    top: 0;
+    bottom: 0;
+    box-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+    padding-inline-start:0;
+    margin: 10px;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 1.15em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    padding: 10px 10px;
+    height: 50px;
+    transition: 0.5s ease;
+    border-radius:30px;
+
+}
+
+nav ul li a:hover {
+    background: #e62e04;
+    color: #ffffff;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: 400px;
+    display: none;
+    background: #f95901;
+    border-radius:30px;
+    box-shadow: 1px 2px 4px rgb(121, 121, 121);
+
+}
+
+nav ul ul span {
+    position: absolute;
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul span {
+    position: absolute;
+    right: 40px;
+    font-size: 1.5em;
+}
+
+nav ul.dropDown {
+    position: relative;
+}
+
+nav ul .dropDown:hover ul {
+    display: initial;
+}

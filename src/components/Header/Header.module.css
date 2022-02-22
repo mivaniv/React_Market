@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+
+.header {
+    grid-area: h;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    display: flex;
+    padding: 0 50px 50px 0;
+    justify-content: space-between;
+    box-shadow: 1px 2px 4px rgb(121, 121, 121);
+}
+
+.header img {
+    width:250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.titleText  {
+    font-family: 'Rubik One', sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #e62e04 10%, rgb(240, 66, 2) 25%, rgb(249, 89, 1) 50%, #ff6600 85%);
+    -webkit-background-clip: text;
+    font-size:3em;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    margin: 20px auto;
+}
+
+.ButtonShop {
+    font-size:1.15em;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #e62e04;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);;
+}

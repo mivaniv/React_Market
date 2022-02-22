@@ -1,0 +1,49 @@
+.MainProduct {
+    grid-area: s;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: 17px 0 0 17px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);
+}
+
+.MainProduct a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.MainProduct img {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.nameProduct {
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.ButtonArea{
+    display: flex;
+    justify-content: center;
+}
+.Button{
+    font-size:1.5em;
+    width: 3em;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin: 17px 0 0 17px;
+    background: #f95901;
+    box-shadow: 1px 2px 4px rgb(121, 121, 121);
+    transition: ease-out 0.3s;
+}
+.Button img{
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    margin: auto ;
+}

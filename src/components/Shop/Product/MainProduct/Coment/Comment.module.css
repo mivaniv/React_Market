@@ -1,0 +1,26 @@
+.Comment {
+    margin-top: 20px;
+    clear: both;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-radius: 30px;
+    background: #f95901;
+}
+.nameUser{
+    margin: auto 20px ;
+}
+.commentUser{
+    width:80%;
+    word-wrap: break-word;
+}
+.Button{
+    margin: auto 20px ;
+
+}
+.Button img{
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    margin: auto ;
+}

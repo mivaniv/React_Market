@@ -1,0 +1,51 @@
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:"h h h"
+                       "n s s"
+                       "n s s";
+    grid-template-rows:250px 1fr;
+    grid-template-columns:2fr  10fr;
+    border-radius: 15px;
+    width: 1000px;
+    
+}
+
+button {
+    border-radius: 10px;
+    background-color: #f95901;
+    width: 80px;
+    height: 50px;
+    transition: ease-out 0.3s;
+    outline: none;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+
+button:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #100202;
+}
+
+button:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 10px;
+}
+/*Footer------------------------------------------*/
